@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="RMI_DW_CLIENT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/RMI_DW_CLIENT" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/RMI_DW_CLIENT/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
