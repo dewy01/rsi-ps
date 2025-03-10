@@ -57,11 +57,15 @@ super();
     }
 
     plansza[x][y] = klient.getSymbol();
-    System.out.println("Gracz " + klient.getName() + " wykonał ruch: (" + x + ", " + y + ")");
+    System.out.println("Player " + klient.getName() + " moved: (" + x + ", " + y + ")");
 
     System.out.println("Updated board:");
     for (char[] row : plansza) {
       System.out.println(Arrays.toString(row));
+    }
+
+    for (int i = 0; i < gracze.length; i++) {
+      gracze[i].printBoard(plansza);
     }
 
     obecnyGracz = 1 - obecnyGracz;
@@ -99,7 +103,7 @@ super();
 
   @Override
   public synchronized String czyjRuch() throws RemoteException {
-    return "Teraz ruch gracza: " + gracze[obecnyGracz].getName();
+    return "Player: " + gracze[obecnyGracz].getName() +" turn";
   }
 
   @Override

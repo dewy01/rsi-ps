@@ -4,6 +4,7 @@ import com.mycompany.rmi_dw.MyServerInt;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.Arrays;
 
 public class MyClientImpl extends UnicastRemoteObject implements MyClientInt{
     private static final long serialVersionUID = 1L;
@@ -24,6 +25,14 @@ public class MyClientImpl extends UnicastRemoteObject implements MyClientInt{
     @Override
     public char getSymbol() throws RemoteException {
         return symbol;
+    }
+    @Override
+    public void printBoard(char[][] plansza) throws RemoteException {
+        System.out.println("Updated board:");
+        for (char[] row : plansza) {
+            System.out.println(Arrays.toString(row));
+        }
+
     }
 
     @Override

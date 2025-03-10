@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyServerImpl extends UnicastRemoteObject implements MyServerInt {
-  private static final long serialVersionUID = 1L;
   private final List<Produkt> produkty;
 
 protected MyServerImpl() throws RemoteException {

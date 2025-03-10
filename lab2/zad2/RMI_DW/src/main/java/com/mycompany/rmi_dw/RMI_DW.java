@@ -19,11 +19,9 @@ public class RMI_DW {
             String projectPath = System.getProperty("user.dir")+"/RMI_DW";
             String policyPath = "file:" + projectPath + "/security.policy";
 
-            // Set security policy dynamically
             System.setProperty("java.security.policy", policyPath);
             System.out.println("Security Policy Path: " + System.getProperty("java.security.policy"));
 
-            // Ensure the policy file exists
             File policyFile = new File(projectPath + "/security.policy");
             if (!policyFile.exists()) {
                 System.err.println("Error: Security policy file not found!");

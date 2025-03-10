@@ -13,7 +13,7 @@ public class RMI_DW {
 
         try {
             // String serverUrl = "localhost";
-            String serverUrl = "localhost";
+            String serverUrl = "10.20.16.7";
 
             // + /RMI_DW only if started from parent directory instead of project directory
             String projectPath = System.getProperty("user.dir")+"/RMI_DW";

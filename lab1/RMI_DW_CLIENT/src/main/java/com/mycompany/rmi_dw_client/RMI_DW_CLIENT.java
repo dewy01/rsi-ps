@@ -9,9 +9,9 @@ public class RMI_DW_CLIENT {
 
     public static void main(String[] args) {
         // String serverUrl = "localhost";
-         String serverUrl = "25.35.218.238";
+         String serverUrl = "172.21.64.1";
         // + /RMI_DW_CLIENT only if started from parent directory instead of project directory
-        String projectPath = System.getProperty("user.dir")+"/RMI_DW_CLIENT";
+        String projectPath = System.getProperty("user.dir")+"/RMI_DW";
         String policyPath = "file:" + projectPath + "/security.policy";
         System.setProperty("java.security.policy", policyPath);
         System.out.println("Security Policy Path: " + System.getProperty("java.security.policy"));

@@ -3,7 +3,6 @@ package com.mycompany.rmi_dw;
 import java.io.Serializable;
 
 public class Produkt implements Serializable {
-    private static final long serialVersionUID = 1L;
     private String nazwa;
     private double cena;
 
