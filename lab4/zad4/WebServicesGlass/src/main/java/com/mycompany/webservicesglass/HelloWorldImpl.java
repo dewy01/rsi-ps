@@ -19,8 +19,7 @@ public class HelloWorldImpl implements HelloWorld {
      @Override
     public List<Produkt> getProducts() {
         List<Produkt> produkty = new ArrayList<>();
-        
-        // Dodajemy kilka przykładowych produktów
+
         produkty.add(new Produkt("Laptop", "Nowoczesny laptop z procesorem Intel i 16GB RAM", 4000));
         produkty.add(new Produkt("Smartphone", "Smartfon z 5G, ekran 6.5", 2500));
         produkty.add(new Produkt("Tablet", "Tablet z ekranem 10 cali i 64GB pamięci", 1500));
