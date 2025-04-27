@@ -1,0 +1,10 @@
+com\mycompany\sslserver\MyServiceService.class
+com\mycompany\sslserver\SayHelloResponse.class
+com\mycompany\sslserver\package-info.class
+com\mycompany\sslserver\SayHello.class
+com\mycompany\sslserver\ObjectFactory.class
+com\mycompany\sslserver\Client.class
+com\mycompany\sslserver\MyServiceInt.class
+com\mycompany\sslserver\JAXRSConfiguration.class
+com\mycompany\sslserver\MyService.class
+com\mycompany\sslserver\resources\JavaEE8Resource.class
