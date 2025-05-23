@@ -1,0 +1,6 @@
+com\mycompany\zadanie1\resources\MessageService.class
+com\mycompany\zadanie1\resources\JavaEE8Resource.class
+service\HelloWorldService.class
+service\MessageResource.class
+model\Message.class
+com\mycompany\zadanie1\JAXRSConfiguration.class
