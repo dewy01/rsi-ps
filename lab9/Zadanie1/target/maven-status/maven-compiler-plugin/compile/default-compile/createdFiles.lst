@@ -1,0 +1,13 @@
+service\CommentResource.class
+model\Link.class
+filter\MyResponseFilter.class
+service\HelloWorldService.class
+model\Message.class
+filter\BasicAuthFilter.class
+filter\LogingFilter.class
+com\mycompany\zadanie1\resources\CommentService.class
+com\mycompany\zadanie1\resources\MessageService.class
+com\mycompany\zadanie1\resources\JavaEE8Resource.class
+service\MessageResource.class
+model\Comment.class
+com\mycompany\zadanie1\JAXRSConfiguration.class
